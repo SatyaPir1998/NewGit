@@ -1,0 +1,385 @@
+/* FOR THE PAGE TYTLE SECTION */
+*body {
+    font-size: 100%;
+}
+
+
+/* .................................................... */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(128, 126, 126);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #14bfd6;
+}
+
+/* ....................................................... */
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border-bottom: 2px solid gray;
+}
+
+.imgage1 {
+    width: 100%;
+    height: 40px;
+}
+
+.text1 {
+    font-size: 7vw;
+    padding-left: 20px;
+}
+
+/* .text1 h1{
+    font-size: 2.85vw;
+    color: darkblue;
+} */
+
+/* THIS FOR BORDER BLACK section */
+#contener {
+    background-color: rgb(252, 252, 252);
+    border: 4px solid black;
+    border-radius: 5px;
+    width: 99%;
+    height: auto;
+    float: left;
+    margin: 7px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+/* BOX STYLING IN PUBLICATION SECTION */
+.PUBLICATION {
+    text-align: justify;
+
+}
+
+.PUBLICATION div.artical {
+    padding: 7px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.112em;
+}
+
+div.artical {
+    padding: 7px;
+}
+
+.CONFERENCE div.artical {
+    padding: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.152em;
+}
+
+.box {
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 2em;
+    color: rgb(255, 255, 255);
+    background-color: #33b5e5;
+    margin-top: 7px;
+}
+
+.box1 {
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 2em;
+    color: beige;
+    background-color: rgb(21, 18, 221);
+    opacity: 0.6;
+}
+
+.box2 {
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 2em;
+    color: #dbe0e6;
+    background-color: #001f3f;
+
+}
+
+.box3 {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 7px;
+    padding-left: 2em;
+    color: rgb(255, 255, 255);
+    background-color: #3e7c70;
+
+}
+
+a {
+    color: blue;
+}
+
+/* Teaching section Css */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+
+/* WHEN DIVE WIDTH IS MAX 600PX */
+
+@media only screen and (max-width: 750px) {
+    #contener {
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 95%;
+        height: auto;
+        float: left;
+        margin: 7px;
+        text-align: justify;
+    }
+
+}
+
+
+/* THIS SECTION CSS FOR HPC  */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 9000px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
+    .w3-third {
+        display: block;
+        width: 100%;
+        min-height: 200px
+    }
+
+    h1 {
+        font-size: 8vw;
+
+    }
+
+    .w3-third img {
+        width: 33%;
+        height: auto;
+
+    }
+}
+
+/* NEWS     CSS */
+
+
+
+
+
+/* footer .............................................................. */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+    background-color: #d3d2d2;
+} */
+
+footer {
+    width: 100%;
+    background-color: #0e0b0b;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container_footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    width: 90%;
+    margin: 20px auto 60px;
+}
+
+.container_footer>div>h2 {
+    color: #fbf9fa;
+    font-family: sans-serif;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.container_footer>div>ul {
+    list-style-type: none;
+}
+
+.container_footer>div>ul.first {
+    color: #38be2c;
+}
+
+.container_footer>div>ul>li {
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+.container_footer>div>ul>li>a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    left: 0;
+    padding: 2px;
+    color: #00abb3;
+
+    transition: all 0.4s;
+}
+
+.container_footer>div>ul>li>a:hover {
+    left: 8px;
+}
+
+.container_footer>div>ul>li>a::selection {
+    background-color: red;
+    color: #000;
+}
+
+.container_footer>div>form {
+    background-color: #35858b;
+    margin: 20px 0 10px;
+    padding: 6px 14px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.container_footer>div>form>input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 270px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.container_footer>div>form>button {
+    padding: 14px 26px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media (max-width:756px) {
+    .container_footer {
+        display: inline-block;
+    }
+}
+
+@media (max-width:600px) {
+    .footer-col {
+        width: 100%;
+    }
+
+    body {
+        display: inline;
+    }
+
+    .container_footer>div>ul>li>a:hover {
+        left: 8px;
+    }
+}
